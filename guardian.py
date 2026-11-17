@@ -12,3 +12,5 @@ if result.returncode == 0:
     print("Safe to deploy")
 else:
     print("Deployment blocked: fix the issues first")
+    
+sys.exit(result.returncode)
